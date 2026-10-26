@@ -7,7 +7,7 @@
 <meta name="referrer" content="no-referrer">
 <meta name="robots" content="noindex,nofollow">
 <meta name="theme-color" content="#0b5d57">
-<title>PAFWA Skills Development Centre NRK</title>
+<title>School Management System</title>
 <link id="fav" rel="icon" href="logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
@@ -518,7 +518,7 @@ async function showDoss(list,i){
   $('#cvh').innerHTML='';$('#cvh').appendChild(c);$('#dlb').disabled=false;$('#dlb').onclick=()=>dl(c,'dossier-'+s.n.replace(/\W+/g,'_')+'.png');
 }
 
-/* ---------- President PAFWA card ---------- */
+/* ---------- Teachers Log card ---------- */
 async function vPres(){
   const dt=S.pd||today(),key='d'+dt;
   $('#main').innerHTML=`<input type="date" id="pd" value="${dt}" max="${today()}"><div id="pc" class="m">Preparing…</div><button id="pdl" class="pri" disabled>Download image</button>`;
